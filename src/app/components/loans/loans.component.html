@@ -1,0 +1,16 @@
+<div>
+  <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Acount</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let user of users;">
+        <tr>
+          <td>{{ user.name }}</td>
+          <td>{{ user.loans }}</td>
+        </tr>
+      </tbody>
+    </table>
+</div>

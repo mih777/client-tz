@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+.main {
+    display: grid;
+    margin: 0 auto;
+    width: 500px;
+    //border: 1px solid gray;
+    padding: 5px;
+    margin-top: 20px;
+    max-width: 100%;
+ }
+
+ .router-outlet {
+     margin-top: 40px;
+ }
